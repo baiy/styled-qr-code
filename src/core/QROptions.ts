@@ -13,7 +13,7 @@ export interface RequiredOptions extends Options {
     typeNumber: TypeNumber;
     mode?: Mode;
     errorCorrectionLevel: ErrorCorrectionLevel;
-    multibyte: Multibyte;
+    multibyte?: Multibyte;
   };
   imageOptions: {
     hideBackgroundDots: boolean;
@@ -43,7 +43,7 @@ const defaultOptions: RequiredOptions = {
     typeNumber: qrTypes[0],
     mode: undefined,
     errorCorrectionLevel: errorCorrectionLevels.Q,
-    multibyte: 'default'
+    multibyte: "default"
   },
   imageOptions: {
     hideBackgroundDots: true,
