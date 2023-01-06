@@ -62,6 +62,7 @@ export declare type Options = {
         typeNumber?: TypeNumber;
         mode?: Mode;
         errorCorrectionLevel?: ErrorCorrectionLevel;
+        multibyte?: Multibyte;
     };
     imageOptions?: {
         hideBackgroundDots?: boolean;

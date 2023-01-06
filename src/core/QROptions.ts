@@ -13,7 +13,7 @@ export interface RequiredOptions extends Options {
     typeNumber: TypeNumber;
     mode?: Mode;
     errorCorrectionLevel: ErrorCorrectionLevel;
-    multibyte?: Multibyte;
+    multibyte: Multibyte;
   };
   imageOptions: {
     hideBackgroundDots: boolean;
